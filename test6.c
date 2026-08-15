@@ -2,8 +2,8 @@
 #include<stdbool.h>
 int main()
 {
-    _Bool exam=0;
-    //0=else 其他=true
+    _Bool exam=false;
+    //0=false 其他=true
     if (exam)
     {
         printf("恭喜你通过考试！\n");
