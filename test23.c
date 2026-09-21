@@ -17,6 +17,10 @@ int main()
             case 6:
             case 7:
                 printf("休息日\n");
+                break;
+            default:
+                printf("请重新输入日期\n");
+                break;
         }
     /*
     也可以这样写（但比较繁琐）：
