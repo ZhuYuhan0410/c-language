@@ -21,6 +21,10 @@ int main()
     printf("请输入想要倒置的数字：\n");
     int a;
     //while(scanf("%d",&a)&& a!=-1)
+    // {
+    //     printf("%d",a % 10);
+    //     a = a / 10 
+    // }
     //不能这样写！
     //while是循环，while（scanf....）是循环执行输入scanf值
     //scanf 放进 while 里，程序每循环一次，就要求你从键盘上重新敲一个数字。
