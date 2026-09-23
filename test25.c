@@ -7,11 +7,11 @@ int main()
     while(scanf("%d",&a)!=-1&& a !=0)
     {
         int b = 1;
-        int c = a;
-        while(c > 0)
+        int c = 1;
+        while(c <= a)
         {
             b *= c;
-            c --;
+            c ++;
         }
         printf("该数字阶乘结果为：%d\n",b);
         
