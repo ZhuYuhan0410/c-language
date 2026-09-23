@@ -7,6 +7,7 @@ int main()
     while(scanf("%d",&a)!=-1&& a !=0)
     {
         int b = 1;
+        //b存储最终结果并且每一步结果都在累加
         int c = 1;
         while(c <= a)
         {
