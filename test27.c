@@ -15,3 +15,23 @@ int main()
     }
     return 0;
 }
+//当然也可以这样写：
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     int b;
+//     for(a = 1;a <= 9;a++)
+//     {
+//         for(b = 1;b <= 9;b++)
+//         {
+//             printf("%d * %d =%-3d ",b,a,a*b);
+//             if(b >= a)
+//             {
+//                 break;
+//             }
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
