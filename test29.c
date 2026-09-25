@@ -64,3 +64,11 @@ int main()
 //     }
 //     return 0;
 // }
+//
+//
+//
+//题目：既能被3又能被5整除
+//只需要把if(currentNum % 3 != 0)改成
+    // if(currentNum % 3 != 0|| currentNum % 5 != 0)
+ // //if(currentNum % 15 != 0)也行
+                
