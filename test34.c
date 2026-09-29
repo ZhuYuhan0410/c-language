@@ -27,9 +27,9 @@ int main()
     }
     //最后打印倒置后的数组nums
      printf("数组nums倒置后：");
-    for(int a = 0;a < len; a++)
+    for(int i = 0;i < len; i++)
     {
-        printf("%d ",nums[a]);
+        printf("%d ",nums[i]);
     }
      printf("\n");
     return 0;
