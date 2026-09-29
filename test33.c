@@ -21,9 +21,11 @@ int main()
     while(count < 10)
     {
         printf("请输入一个整数：\n");
-        // scanf("%d",&num);
+                // scanf("%d",&num);
         if(scanf("%d",&num)!=1)
-        {
+        // if(scanf("%d",&num)!=1)
+        //快速复制shift+option+⬇️
+                {
              break;
              //scanf 判断如果输入不到 10 个该怎么优雅地退出
         }
