@@ -6,6 +6,7 @@ int main()
     //定义两个变量。
     int n;
     int m;
+    
     //输入想要的二维数组行与列的长度
     scanf("%d %d",&n,&m);
     if(n < 1)
@@ -50,5 +51,6 @@ int main()
         }
         printf("\n");
     }
+
     return 0;
 }
