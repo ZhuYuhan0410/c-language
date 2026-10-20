@@ -19,8 +19,7 @@
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
-            ],
-            "console": "integratedTerminal"  // 【核心】这一行让你的 scanf 可以在底部终端输入！
+            ]
         }
     ]
 }
